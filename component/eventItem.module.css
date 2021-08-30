@@ -1,0 +1,26 @@
+.li {
+  list-style: none;
+  display: flex;
+  border: 1px solid black;
+  border-radius: 20px;
+  height: 300px;
+  margin: 5rem 10%;
+}
+.image_container {
+  display: flex;
+}
+.containt_container {
+  flex-direction: column;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 100%;
+  border-radius: 20px;
+}
+.image {
+  border-radius: 20px;
+  height: 300px;
+  width: 500px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.detail_container {
+  margin: 0 20px;
+}
